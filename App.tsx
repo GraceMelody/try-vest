@@ -6,15 +6,15 @@ import { Provider } from "exoflex";
 import { Header, TextInput, Picker } from "./components";
 import styled from "styled-components";
 
-import validate, {
-  Data as FormData,
+import validate, { Data as FormData } from "./validation";
+import {
   EDUCATIONS,
   EXPERIENCES,
   EMPLOYMENT_STATUS,
   WISHED_STATUS,
   LANGUAGES,
   INTERVIEW_AVAILABILITIES
-} from "./validation";
+} from "./formData";
 
 const Container = styled(SafeAreaView)`
   flex: 1;
